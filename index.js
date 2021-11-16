@@ -3,7 +3,7 @@ const app = express()
 const port = 5000
 app.set('view engine', 'ejs');
 
-app.use(express.static('static'))
+app.use(express.static('https://dcrucesr.github.io/paginapersonalheroku/static/'))
 app.listen(port, () => {
     console.log(`servidor en  http://localhost:${port}`)
 })
